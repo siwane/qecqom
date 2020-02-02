@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Vollkorn', serif;
+}
+
+table.dashboard {
+
+  td {
+    height: 1em;
+  }
+
+  .tools-box {
+    height: 1em;
+    color: grey;
+    display: none;
+
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  td:hover > .tools-box {
+    display: inline-block;
+  }
+
+}

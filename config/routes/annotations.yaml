@@ -1,0 +1,7 @@
+home_controller:
+    resource: ../../src/Home/Controller/
+    type: annotation
+
+menu_controller:
+    resource: ../../src/Menu/Controller/
+    type: annotation
